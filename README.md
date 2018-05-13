@@ -1,6 +1,8 @@
 ![logo](https://flytte.github.io/logo.png)
 
-Flytte is an application for declarative drone control. It has the goal to improve the user experience by controlling the drones from the 3rd person point of view. The system combines an intuitive user interface based on Augmented Reality techniques, Artificial Neural Networks that are responsible for online drone's pose detection and ROS-based core unit.
+Flytte is an application for declarative drone control.
+
+It has the goal to improve the user experience by controlling the drones from the 3rd person point of view. The system combines an intuitive user interface based on Augmented Reality techniques, Artificial Neural Networks that are responsible for online drone's pose detection and ROS-based core unit.
 
 Right now it is only possible to use Flytte with [Sphinx](https://developer.parrot.com/docs/sphinx/index.html), which is a simulator for [Parrot](https://www.parrot.com/) drones.
 
