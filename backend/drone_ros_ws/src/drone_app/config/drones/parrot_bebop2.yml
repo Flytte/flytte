@@ -1,0 +1,11 @@
+parrot_bebop2:
+  size:
+    width: 0.382
+    height: 0.089
+    depth: 0.328
+  network:
+    ip: 192.168.0.13
+    port: 8080
+  topics:
+    odometry: "/odom"
+    commands: "/cmd_vel"

@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="drone_app" name="BBoxTest" type="BBoxTest" output="screen" />
+    <node pkg="drone_app" name="PoseTest" type="PoseTest" output="screen" />
+	<node pkg="drone_app" name="DroneTest" type="DroneTest" output="screen" />
+    <node pkg="drone_app" name="DronePoolTest" type="DronePoolTest" output="screen" />
+    <node pkg="drone_app" name="RegulatorUtilTest" type="RegulatorUtilTest" output="screen" />
+
+	<rosparam file="$(find drone_app)/config/drones/parrot_bebop2.yml" command="load" ns="/drones" />
+	<rosparam file="$(find drone_app)/config/config.yml" command="load" />
+</launch>

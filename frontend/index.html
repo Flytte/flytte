@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Neuronaler Dronenschubser</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/include/roslib.min.js"></script>
+    <script src="js/include/jquery.wheel.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<div id="video-wrapper" class="video-wrapper">
+    <footer>
+        &copy; University of Osnabrück
+    </footer>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div id="content" class="col-md-12">
+            <div class="dropup ui-element">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-option-vertical"></span>
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#controls" data-toggle="collapse">Controls</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">About the project</a></li>
+                    <li><a href="#">Our GitHub</a></li>
+                    <li><a href="#">University of Osnabrück</a></li>
+                </ul>
+            </div>
+
+            <div id="controls" class="well collapse ui-element">
+                Controls description here
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

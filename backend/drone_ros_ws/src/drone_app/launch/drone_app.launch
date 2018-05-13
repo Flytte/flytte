@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="drone_app" name="controller" type="controller" output="screen" />
+	<node pkg="drone_app" name="gazeboDetector" type="gazeboDetector" output="screen" />
+	<node pkg="drone_app" name="gazeboImageSender" type="gazeboImageSender" output="screen" />
+	<node pkg="drone_app" name="FusionUnit" type="FusionUnit.py" output="screen" />
+
+	<rosparam file="$(find drone_app)/config/drones/parrot_bebop2.yml" command="load" ns="/drones" />
+	<rosparam file="$(find drone_app)/config/config.yml" command="load" />
+</launch>

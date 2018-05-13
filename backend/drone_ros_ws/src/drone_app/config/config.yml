@@ -1,0 +1,38 @@
+camera:
+  fx: 5.5322048754249238e+02
+  fy: 5.5285611970941648e+02
+  cx: 3.1929420090888715e+02
+  cy: 2.3867960696716827e+02
+  d1: -6.6038603752301790e-03
+  d2: 5.8207541672106393e-02
+  d3: -5.8703344187181490e-04
+  d4: 4.5449027707397042e-04
+  d5: -1.2353703161125491e-01
+  x: -0.5
+  y: 0.0
+  z: 0.02
+  w: 640
+  h: 480
+
+drone_velocity:
+  max_h: 32.0
+  max_v: 5.0
+
+simulation:
+  models:
+    gauss:
+      mean: 0
+      std_dev: 0.01
+    statistical:
+      rate: 10
+      min: -6.0
+      max:  6.0
+
+latency:
+  use: 0
+  time: 20
+
+noise:
+  std_nn: 0.01
+  std_nn_orientation: 0.01
+  std_odom: 0.05
