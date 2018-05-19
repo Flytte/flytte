@@ -31,15 +31,12 @@ _OpenCV3 needs to be installed in the system_
 [How to use](https://developer.parrot.com/docs/sphinx/firststep.html)
 
 # How to start
-0. Build the application
+1. Build the application
 > `git clone https://github.com/Flytte/flytte.git`  
 > `cd flytte/backend/drone_ros_ws`  
 > `ln -s /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake src/CMakeLists.txt`  
 > `catkin_make`  
 > `source devel/setup.bash`
-
-1. Move to the root directory of the repository
-> `cd <repo>`
 
 2. Start the simulator
 > `sphinx backend/simulation/empty.world backend/simulation/bebop2.drone`
