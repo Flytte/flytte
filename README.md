@@ -12,7 +12,7 @@ Right now it is only possible to use Flytte with [Sphinx](https://developer.parr
 [ROS Wiki](http://wiki.ros.org/rosbridge_suite)
 
 **Installation**:
-> `sudo apt-get install ros-\<rosdistro\>-rosbridge-server`
+> `sudo apt-get install ros-<rosdistro>-rosbridge-server`
 
 ### Bebop Autonomy
 [How to install](https://bebop-autonomy.readthedocs.io/en/latest/installation.html)
@@ -23,7 +23,7 @@ Right now it is only possible to use Flytte with [Sphinx](https://developer.parr
 _OpenCV3 needs to be installed in the system_
 
 **Installation**:
-> `sudo apt-get install ros-\<rosdistro\>-web-video-server`
+> `sudo apt-get install ros-<rosdistro>-web-video-server`
 
 ### Sphinx
 [How to install](https://developer.parrot.com/docs/sphinx/installation.html)
@@ -34,7 +34,7 @@ _OpenCV3 needs to be installed in the system_
 1. Build the application
 > `git clone https://github.com/Flytte/flytte.git`  
 > `cd flytte/backend/drone_ros_ws`  
-> `ln -s /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake src/CMakeLists.txt`  
+> `ln -s /opt/ros/<rosdistro>/share/catkin/cmake/toplevel.cmake src/CMakeLists.txt`  
 > `catkin_make`  
 > `source devel/setup.bash`
 
