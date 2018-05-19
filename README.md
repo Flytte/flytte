@@ -32,14 +32,10 @@ _OpenCV3 needs to be installed in the system_
 
 # How to start
 0. Build the application
-> `git clone https://github.com/Flytte/flytte.git`
-
-> `cd flytte/backend/drone_ros_ws`
-
-> `ln -s /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake src/CMakeLists.txt`
-
-> `catkin_make`
-
+> `git clone https://github.com/Flytte/flytte.git`  
+> `cd flytte/backend/drone_ros_ws`  
+> `ln -s /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake src/CMakeLists.txt`  
+> `catkin_make`  
 > `source devel/setup.bash`
 
 1. Move to the root directory of the repository
