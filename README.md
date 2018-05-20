@@ -62,5 +62,5 @@ _The default name of the network interface is_ `eth0`_. To know more, look [here
 You don't really need a web server for this. Just open the `index.html` file.
 > `file:///<frontend folder>/index.html`
 
-_Note that Flytte has a special mode for a simulated environment. In this mode the virtual camera in the simulator is used instead of the real one on the client. To start Flytte in simulation mode simple add_ `?simulation` _after the URL._
+_Note that Flytte has a special mode for a simulated environment. In this mode the virtual camera in the simulator is used instead of the real one on the client. To start Flytte in simulation mode, simply add_ `?simulation` _after the URL._
 > `file:///<frontend folder>/index.html?simulation`
