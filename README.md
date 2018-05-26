@@ -36,7 +36,7 @@ _OpenCV3 needs to be installed in the system_
 > `cd flytte/backend/drone_ros_ws`  
 > `ln -s /opt/ros/<rosdistro>/share/catkin/cmake/toplevel.cmake src/CMakeLists.txt`  
 > `catkin_make`  
-> `source devel/setup.bash`
+> `source devel/setup.bash`  
 > `cd ../..`
 
 2. Start the simulator
