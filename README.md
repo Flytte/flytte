@@ -1,4 +1,4 @@
-![logo](https://flytte.github.io/logo.png)
+![logo](https://flytte.github.io/img/logo.png)
 
 Flytte is an application for declarative drone control.
 
